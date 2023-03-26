@@ -1,0 +1,2 @@
+request-timeout: 60
+request-cooldown: 10

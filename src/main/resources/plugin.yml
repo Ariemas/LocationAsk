@@ -1,0 +1,34 @@
+name: LocationAsk
+version: '${project.version}'
+main: me.arimas.locationask.LocationAsk
+api-version: 1.13
+commands:
+  requestlocation:
+    description: Request the location of another player
+    usage: /requestlocation <player>
+    permission: locationask.request
+    aliases:
+      - locationask
+      - locask
+      - locationrequest
+      - locrequest
+      - locreq
+      - asklocation
+      - askloc
+      - requestloc
+      - reqloc
+  locationaccept:
+    description: Accept a location request from another player
+    usage: /locationaccept <player>
+    permission: locationask.accept
+    aliases:
+    - locationaccept
+    - locaccept
+    - acceptloc
+permissions:
+  locationask.request:
+    description: Allows the player to request the location of another player
+    default: true
+  locationask.accept:
+    description: Allows the player to accept a location request from another player
+    default: true
