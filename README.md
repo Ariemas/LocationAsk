@@ -26,8 +26,5 @@ The config.yml file contains two settings:
 * locationask.request: Request the location of another player.
 * locationask.accept: Accept a location request from another player and share your location with them.
 
-## Dependencies
-The plugin requires a Paper server with API version 1.13 or higher.
-
 ## License
 This plugin is available under the MIT License. See the LICENSE file for more information.
