@@ -8,7 +8,7 @@ LocationAsk is a Minecraft plugin that allows players to request the location of
 * Configureable request timeout to automatically cancel pending requests
 
 ## Installation
-1. Download the latest version of the LocationAsk plugin.
+1. [Download the latest version of the LocationAsk plugin.](https://www.spigotmc.org/resources/location-ask.108848/)
 2. Place the downloaded JAR file in the plugins folder of your Minecraft server.
 3. Restart your server to load the plugin and generate the configuration files.
 
